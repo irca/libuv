@@ -189,7 +189,7 @@ static int pound_it(int concurrency,
   void* state;
   int r;
 
-  uv_init();
+
 
   /* Run benchmark for at least five seconds. */
   start_time = uv_hrtime();
